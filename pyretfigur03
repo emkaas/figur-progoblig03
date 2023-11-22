@@ -1,0 +1,10 @@
+#Kode til figur i Pyret.
+
+overlay-align("left", "top", isosceles-triangle(50, 330, "solid", "white"),
+  overlay-align("right", "top", isosceles-triangle(50, 330, "solid", "white"),
+    overlay-align("left", "bottom", isosceles-triangle(30, 30, "solid", "white"),
+      overlay-align("right", "bottom", isosceles-triangle(30, 30, "solid", "white"),
+        overlay-align("middle", "bottom", rectangle(5, 50, "solid", "black"),
+          overlay-align("center", "bottom", rectangle(100, 50, "solid", "crimson"),
+            overlay-align("middle", "pinhole", circle(30, "solid", "dark red"),
+              rectangle(100, 100, "solid", "black"))))))))
